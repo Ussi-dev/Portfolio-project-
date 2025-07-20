@@ -1,0 +1,116 @@
+/* Resetting styles */
+* {
+  margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        }
+
+        #navbar {
+          position: fixed;
+            top: 0;
+              width: 100%;
+                background-color: #333;
+                  color: white;
+                    padding: 10px;
+                      display: flex;
+                        justify-content: center;
+                          gap: 20px;
+                            z-index: 1000;
+                            }
+
+                            #navbar a {
+                              color: white;
+                                text-decoration: none;
+                                  font-weight: bold;
+                                  }
+
+                                  #navbar a:hover {
+                                    text-decoration: underline;
+                                    }
+
+                                    /* Welcome section */
+                                    #welcome-section {
+                                      height: 100vh;
+                                        background-color: #f4f4f4;
+                                          display: flex;
+                                            flex-direction: column;
+                                              justify-content: center;
+                                                align-items: center;
+                                                  text-align: center;
+                                                  }
+
+                                                  #welcome-section h1 {
+                                                    font-size: 3rem;
+                                                      margin-bottom: 10px;
+                                                      }
+
+                                                      /* Projects Section */
+                                                      #projects {
+                                                        padding: 50px 20px;
+                                                          background-color: #f9f9f9;
+                                                            text-align: center;
+                                                            }
+
+                                                            .project-tile {
+                                                              background-color: #fff;
+                                                                border: 1px solid #ddd;
+                                                                  padding: 20px;
+                                                                    margin: 10px 0;
+                                                                      border-radius: 8px;
+                                                                      }
+
+                                                                      .project-tile h3 {
+                                                                        font-size: 1.5rem;
+                                                                          margin-bottom: 10px;
+                                                                          }
+
+                                                                          .project-tile a {
+                                                                            color: #333;
+                                                                              text-decoration: none;
+                                                                                font-weight: bold;
+                                                                                }
+
+                                                                                .project-tile a:hover {
+                                                                                  text-decoration: underline;
+                                                                                  }
+
+                                                                                  /* Profile Link */
+                                                                                  #profile-link {
+                                                                                    display: block;
+                                                                                      text-align: center;
+                                                                                        padding: 20px;
+                                                                                          font-size: 1.2rem;
+                                                                                            color: #333;
+                                                                                              text-decoration: none;
+                                                                                              }
+
+                                                                                              #profile-link:hover {
+                                                                                                text-decoration: underline;
+                                                                                                }
+
+                                                                                                /* Contact Section */
+                                                                                                #contact {
+                                                                                                  padding: 50px 20px;
+                                                                                                    background-color: #f4f4f4;
+                                                                                                      text-align: center;
+                                                                                                      }
+
+                                                                                                      /* Media Query for mobile responsiveness */
+                                                                                                      @media (max-width: 768px) {
+                                                                                                        #navbar {
+                                                                                                            flex-direction: column;
+                                                                                                              }
+
+                                                                                                                #welcome-section h1 {
+                                                                                                                    font-size: 2.5rem;
+                                                                                                                      }
+                                                                                                                        
+                                                                                                                          .project-tile {
+                                                                                                                              width: 90%;
+                                                                                                                                  margin: 10px auto;
+                                                                                                                                    }
+                                                                                                        }
