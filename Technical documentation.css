@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+        margin: 0;
+          padding: 0;
+            display: flex;
+              background: #f9f9f9;
+              }
+
+              #navbar {
+                position: fixed;
+                  top: 0;
+                    left: 0;
+                      width: 250px;
+                        height: 100vh;
+                          background-color: #1f2937;
+                            color: #fff;
+                              padding: 20px;
+                                overflow-y: auto;
+                                }
+
+                                #navbar header {
+                                  font-size: 1.5rem;
+                                    margin-bottom: 1rem;
+                                    }
+
+                                    .nav-link {
+                                      display: block;
+                                        color: #d1d5db;
+                                          padding: 8px 0;
+                                            text-decoration: none;
+                                            }
+
+                                            .nav-link:hover {
+                                              color: #fff;
+                                              }
+
+                                              #main-doc {
+                                                margin-left: 260px;
+                                                  padding: 30px;
+                                                    max-width: 800px;
+                                                    }
+
+                                                    .main-section {
+                                                      margin-bottom: 50px;
+                                                      }
+
+                                                      .main-section header {
+                                                        font-size: 1.8rem;
+                                                          margin-bottom: 10px;
+                                                            color: #111827;
+                                                            }
+
+                                                            code {
+                                                              display: block;
+                                                                background: #e5e7eb;
+                                                                  padding: 8px;
+                                                                    margin: 10px 0;
+                                                                      border-left: 4px solid #3b82f6;
+                                                                        font-family: monospace;
+                                                                        }
+
+                                                                        ul {
+                                                                          margin-top: 10px;
+                                                                            padding-left: 20px;
+                                                                            }
+
+                                                                            li {
+                                                                              margin-bottom: 6px;
+                                                                              }
+
+                                                                              /* Responsive Media Query */
+                                                                              @media (max-width: 768px) {
+                                                                                body {
+                                                                                    flex-direction: column;
+                                                                                      }
+
+                                                                                        #navbar {
+                                                                                            position: relative;
+                                                                                                width: 100%;
+                                                                                                    height: auto;
+                                                                                                      }
+
+                                                                                                        #main-doc {
+                                                                                                            margin-left: 0;
+                                                                                                                padding: 20px;
+                                                                                                                  }
+                                                                                                                  }
+}
